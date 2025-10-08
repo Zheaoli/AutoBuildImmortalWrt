@@ -9,7 +9,6 @@ echo "Include Docker: $INCLUDE_DOCKER"
 
 echo "Create pppoe-settings"
 mkdir -p  /home/build/immortalwrt/files/etc/config
-sed -i 's/192.168.1.1/192.168.40.1/g' package/base-files/files/bin/config_generate
 sed -i 's/KERNEL_PATCHVER:=6.6/KERNEL_PATCHVER:=6.12/g' target/linux/x86/Makefile
 
 # 创建pppoe配置文件 yml传入环境变量ENABLE_PPPOE等 写入配置文件 供99-custom.sh读取
