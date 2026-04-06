@@ -65,20 +65,18 @@ PACKAGES="$PACKAGES luci-i18n-filemanager-zh-cn"
 
 # ============= routing feed 全部可用包 ==============
 PACKAGES="$PACKAGES ahcpd alfred babel-pinger babeld"
-PACKAGES="$PACKAGES batctl-default batctl-full batctl-tiny batmand"
+PACKAGES="$PACKAGES batctl-default batmand"
 PACKAGES="$PACKAGES bird2 bird2c bird2cl bird3 bird3c bird3cl"
 PACKAGES="$PACKAGES bmx7 bmx7-iwinfo bmx7-json bmx7-sms bmx7-table bmx7-topology bmx7-tun bmx7-uci-config"
 PACKAGES="$PACKAGES cjdns cjdns-tests"
-PACKAGES="$PACKAGES hnet-full hnet-full-l2tp hnet-full-secure hnetd-nossl hnetd-openssl"
-PACKAGES="$PACKAGES luci-app-cjdns luci-app-hnet luci-app-olsrd2"
-PACKAGES="$PACKAGES mesh11sd minimalist-pcproxy naywatch ndppd nodogsplash"
+PACKAGES="$PACKAGES luci-app-cjdns"
+PACKAGES="$PACKAGES mesh11sd naywatch ndppd nodogsplash"
 PACKAGES="$PACKAGES ohybridproxy olsrd olsrd-utils"
 PACKAGES="$PACKAGES olsrd-mod-arprefresh olsrd-mod-bmf olsrd-mod-dot-draw olsrd-mod-dyn-gw"
 PACKAGES="$PACKAGES olsrd-mod-dyn-gw-plain olsrd-mod-filtergw olsrd-mod-httpinfo olsrd-mod-jsoninfo"
 PACKAGES="$PACKAGES olsrd-mod-mdns olsrd-mod-nameservice olsrd-mod-netjson olsrd-mod-p2pd"
 PACKAGES="$PACKAGES olsrd-mod-pgraph olsrd-mod-pud olsrd-mod-quagga olsrd-mod-secure"
 PACKAGES="$PACKAGES olsrd-mod-sgwdynspeed olsrd-mod-txtinfo olsrd-mod-watchdog"
-PACKAGES="$PACKAGES oonf-dlep-proxy oonf-dlep-radio oonf-init-scripts oonf-olsrd2"
 PACKAGES="$PACKAGES opennds pimbd prince vis zonestitcher"
 # ======== shell/custom-packages.sh =======
 # 合并imm仓库以外的第三方插件
