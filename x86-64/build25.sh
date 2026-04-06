@@ -49,7 +49,7 @@ PACKAGES="$PACKAGES luci-i18n-filemanager-zh-cn"
 # ============= routing feed 全部可用包 ==============
 PACKAGES="$PACKAGES ahcpd alfred babel-pinger babeld"
 PACKAGES="$PACKAGES batctl-default batmand"
-PACKAGES="$PACKAGES bird2 bird2c bird2cl"
+PACKAGES="$PACKAGES bird3 bird3c bird3cl"
 PACKAGES="$PACKAGES bmx7 bmx7-iwinfo bmx7-json bmx7-sms bmx7-table bmx7-topology bmx7-tun bmx7-uci-config"
 PACKAGES="$PACKAGES cjdns cjdns-tests"
 PACKAGES="$PACKAGES luci-app-cjdns"
