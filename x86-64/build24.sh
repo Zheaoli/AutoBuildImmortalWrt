@@ -84,6 +84,16 @@ PACKAGES="$PACKAGES opennds"
 PACKAGES="$PACKAGES pimbd"
 PACKAGES="$PACKAGES prince"
 PACKAGES="$PACKAGES vis"
+# quagga 全部子包
+PACKAGES="$PACKAGES quagga-zebra quagga-bgpd quagga-ospfd quagga-ospf6d"
+PACKAGES="$PACKAGES quagga-ripd quagga-ripngd quagga-isisd quagga-vtysh"
+PACKAGES="$PACKAGES quagga-babeld quagga-pimd quagga-watchquagga"
+# frr 全部子包
+PACKAGES="$PACKAGES frr frr-zebra frr-bgpd frr-ospfd frr-ospf6d"
+PACKAGES="$PACKAGES frr-ripd frr-ripngd frr-isisd frr-pimd"
+PACKAGES="$PACKAGES frr-ldpd frr-babeld frr-eigrpd frr-fabricd"
+PACKAGES="$PACKAGES frr-nhrpd frr-pbrd frr-staticd frr-bfdd"
+PACKAGES="$PACKAGES frr-vrrpd frr-pathd frr-vtysh frr-watchfrr"
 # ======== shell/custom-packages.sh =======
 # 合并imm仓库以外的第三方插件
 PACKAGES="$PACKAGES $CUSTOM_PACKAGES"
